@@ -230,3 +230,14 @@ input[type=email]
     width:100%;
 }
 }
+@media (max-width:700px)
+{
+    #box3
+    {
+        margin-top: 50px;
+    }
+    #box1
+    {
+        height:250px;       
+    }
+}
