@@ -198,6 +198,7 @@ input[type=email]
 {
  #InviteEmail
  {
+     width:100%;
      display: block;
      margin: auto;
      margin-top: 50px;
@@ -222,5 +223,9 @@ input[type=email]
 {
     width:50%;
     margin-top: 10px;
+}
+input[type=email]
+{
+    width:100%;
 }
 }
