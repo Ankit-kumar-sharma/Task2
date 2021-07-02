@@ -8,14 +8,14 @@ body
 {
     background-color: #f5f5f5;
 }  
-#header
+.header
 {
     max-width: 100%;
     height:100px;
     border:1px solid #aaaaaa;
     border-radius: 1px;
 }
-#main
+.main
 {
     max-width:100%;
     height:560px;
@@ -24,7 +24,7 @@ body
     margin-top: 1px;
     background-color: blue;
 }
-#box1
+.box1
 {
     max-width:100%;
     height:200px;
@@ -76,7 +76,7 @@ body
     font-size: 21px;
 }
 
-#box2
+.box2
 {
     max-width:100%;
     height:320px;
@@ -85,7 +85,7 @@ body
     margin-top: 0px;
     padding-top: 10px;
 }
-#box3
+.box3
 {
     max-width:90%;
     height:300px;
@@ -97,7 +97,7 @@ body
     text-align: center;
 }
 
-#copylink
+.copylink
 {
     max-width:90%;
     height:60px;
@@ -126,7 +126,7 @@ input[type=text]
     color:gray;
     font-size: 16px;
 }
-#InviteEmail
+.InviteEmail
 {
     width:55%;
     height:200px;
@@ -134,7 +134,7 @@ input[type=text]
     padding:20px;
     display: inline-block;
 }
-#SocialMedia
+.SocialMedia
 {
     width:34%;
     height:230px;
@@ -196,24 +196,24 @@ input[type=email]
 }
 @media (max-width:700px)
 {
- #InviteEmail
+ .InviteEmail
  {
      width:100%;
      display: block;
      margin: auto;
      margin-top: 100px;
  }
- #main
+ .main
  {
      height:1000px;
      background-color: whitesmoke;
  }   
- #box3
+ .box3
  {
     margin-top: 20px;
     height:700px;
  }
- #SocialMedia
+ .SocialMedia
  {
      width:100%;
      display: block;
@@ -230,14 +230,14 @@ input[type=email]
     width:100%;
 }
 }
-@media (max-width:700px)
+@media (max-width:280px)
 {
-    #box3
+    .box3
     {
-        margin-top: 50px;
+        margin-top: 60px;
     }
-    #box1
+    .box1
     {
-        height:250px;       
+        height:350px;       
     }
 }
