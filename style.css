@@ -54,6 +54,7 @@ body
     padding:10px;
     border-radius: 5px;
 }
+
 .slink a
 {
     text-decoration: none;
@@ -187,6 +188,8 @@ input[type=email]
     margin-left: 2px;
     border: 1px solid blue;
     border-radius: 5px;
+    display: inline-block;
+    line-height: 45px;
 }
 .cbtn:hover
 {
