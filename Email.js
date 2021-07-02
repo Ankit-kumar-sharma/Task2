@@ -4,8 +4,8 @@ function ValidateEmail(inputText)
           if(inputText.value.match(mailformat))
           {
             document.getElementById('message').innerHTML="Valid Email address";
-            document.getElementById('inbdemo').style.outlineColor="#ff8d39";
-            document.getElementById('inbdemo').style.border="2px solid #ff8d39";
+            document.getElementById('inbdemo').style.outlineColor="blue";
+            document.getElementById('inbdemo').style.border="2px solid blue";
             document.form1.text1.focus();
             return true;
           }
