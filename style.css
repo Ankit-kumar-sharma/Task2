@@ -204,7 +204,7 @@ input[type=email]
      width:100%;
      display: block;
      margin: auto;
-     margin-top: 100px;
+     margin-top: 50px;
  }
  .main
  {
@@ -231,6 +231,15 @@ input[type=email]
 input[type=email]
 {
     width:100%;
+}
+input[type=text]
+{
+    width: 90%;
+}
+.copylink
+{
+    height:150px;
+    margin-top: 20px;
 }
 }
 @media (max-width:280px)
